@@ -29,7 +29,7 @@ const Banner = () => {
             <b>Ratusan Juta Rupiah!</b> Mau Bisa Cuan Banyak Terus?
           </p>
           <p>
-            <button className="btn-wortel btn-wortel-primary-white">
+            <button className="btn-wortel btn-wortel-primary-orange">
               Gabung Sekarang !
             </button>
           </p>
