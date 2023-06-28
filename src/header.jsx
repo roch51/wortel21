@@ -1,5 +1,4 @@
 import { Container, Nav, Navbar } from "react-bootstrap";
-import { NavLink } from "react-router-dom";
 import { scroller } from "react-scroll";
 const Header = () => {
   const scrollToComponent = (componentId) => {
@@ -21,25 +20,25 @@ const Header = () => {
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
-          <Nav>
-            <NavLink
+          <Nav variant="underline" defaultActiveKey="/">
+            <Nav.Link
               className="nav-link-orange nav-link"
               onClick={() => scrollToComponent("home")}
             >
               Beranda
-            </NavLink>
-            <NavLink
+            </Nav.Link>
+            <Nav.Link
               className="nav-link-orange nav-link"
               onClick={() => scrollToComponent("game")}
             >
               Game
-            </NavLink>
-            <NavLink
+            </Nav.Link>
+            <Nav.Link
               className="nav-link-orange nav-link"
               onClick={() => scrollToComponent("aboutus")}
             >
               Tentang Kami
-            </NavLink>
+            </Nav.Link>
           </Nav>
           <div className="nav-bar-action">
             <button className="btn-nav btn-wortel-secondary-orange">
