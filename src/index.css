@@ -5,9 +5,9 @@ body {
     sans-serif; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: Montserrat;
+  font-family: "Montserrat", sans-serif;
 }
 
 code {
-  font-family: Montserrat !important;
+  font-family: "Montserrat" !important;
 }

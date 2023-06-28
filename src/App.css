@@ -1,8 +1,10 @@
 @font-face {
   font-family: "Montserrat";
   src: local("Montserrat"),
-    url(./assets/fonts/montsterrat/Montserrat-Medium\ copy.ttf)
-      format("truetype");
+    url(./assets/fonts/montsterrat/Montserrat-Medium.ttf) format("truetype"),
+    url(./assets/fonts/montsterrat/Montserrat-MediumItalic.ttf)
+      format("truetype"),
+    url(./assets/fonts/montsterrat/Montserrat-Bold.ttf) format("truetype");
 }
 
 #root {
