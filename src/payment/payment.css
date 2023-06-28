@@ -1,0 +1,4 @@
+.payment-container {
+  padding-bottom: 30px;
+  background: var(--grey-10, #f2f2f2) !important;
+}

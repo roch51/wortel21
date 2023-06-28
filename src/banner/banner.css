@@ -100,7 +100,3 @@
   border-radius: 24px;
   background: var(--primary-color-70, #964f18);
 }
-
-.game-container {
-  background-image: url(/public/themes2/background.png);
-}

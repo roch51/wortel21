@@ -1,9 +1,10 @@
 import { Card, Col, Container, Row } from "react-bootstrap";
+import "./payment.css";
 
 const Payment = () => {
   return (
     <Container
-      className="bg-body-tertiary text-center overflow-hidden heading-title"
+      className="bg-body-tertiary text-center payment-container heading-title"
       fluid
     >
       <div className="my-3 p-3">

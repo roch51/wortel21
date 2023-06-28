@@ -1,5 +1,5 @@
 import { Card, Col, Container, Row } from "react-bootstrap";
-
+import "./games.css";
 const Game = () => {
   return (
     <Container
