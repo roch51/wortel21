@@ -1,4 +1,5 @@
 import { Card, Col, Container, Row } from "react-bootstrap";
+import "./content.css";
 
 const Content = () => {
   return (
@@ -9,7 +10,12 @@ const Content = () => {
       <Row>
         <Col md={3} className="content-column">
           <Card className="content-card text-center">
-            <Card.Img src="image-content4.png" className="image-content" />
+            <Card.Img
+              src="image-content4.png"
+              className="image-content"
+              width="200px"
+              height="200px"
+            />
             <Card.Body>
               <Card.Title className="content-card-title">
                 <b>
@@ -18,14 +24,20 @@ const Content = () => {
                 </b>
               </Card.Title>
               <Card.Text className="content-card-text">
-                Dapet bonus mingguan dan extra bonus untuk <b>new member!</b>
+                Dapet bonus mingguan dan extra bonus untuk <br />{" "}
+                <b>new member!</b>
               </Card.Text>
             </Card.Body>
           </Card>
         </Col>
         <Col md={3} className="content-column">
           <Card className="content-card">
-            <Card.Img src="image-content3.png" className="image-content" />
+            <Card.Img
+              src="image-content3.png"
+              className="image-content"
+              width="200px"
+              height="200px"
+            />
             <Card.Body>
               <Card.Title className="content-card-title">
                 <b>
@@ -41,7 +53,12 @@ const Content = () => {
         </Col>
         <Col md={3} className="content-column">
           <Card className="content-card">
-            <Card.Img src="image-content2.png" className="image-content" />
+            <Card.Img
+              src="image-content2.png"
+              className="image-content"
+              width="200px"
+              height="200px"
+            />
             <Card.Body>
               <Card.Title className="content-card-title">
                 <b>
@@ -57,7 +74,12 @@ const Content = () => {
         </Col>
         <Col md={3} className="content-column">
           <Card className="content-card">
-            <Card.Img src="image-content1.png" className="image-content" />
+            <Card.Img
+              src="image-content1.png"
+              className="image-content"
+              width="200px"
+              height="200px"
+            />
             <Card.Body>
               <Card.Title className="content-card-title">
                 <b>
