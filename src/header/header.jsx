@@ -45,9 +45,7 @@ const Header = () => {
             <button className="btn-nav btn-wortel-secondary-orange">
               Masuk
             </button>
-            <button className="btn-nav btn-wortel-primary-orange">
-              Daftar
-            </button>
+            <button className="btn-nav btn-wortel-primary-white">Daftar</button>
           </div>
         </Navbar.Collapse>
       </Container>

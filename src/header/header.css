@@ -61,7 +61,7 @@
   background: var(--grey-0, #df7f33);
 }
 
-.btn-wortel-primary-orange {
+.btn-wortel-primary-white {
   color: #df7f33;
 
   /* Body Text 1/Medium */
@@ -83,8 +83,8 @@
   border: #fff;
 }
 
-.btn-wortel-primary-orange:hover {
-  color: #964f18;
+.btn-wortel-primary-white:hover {
+  color: #fff;
 
   /* Body Text 1/Medium */
   font-size: 16px;
@@ -101,5 +101,5 @@
   flex-shrink: 0;
 
   border-radius: 24px;
-  background: var(--primary-color-70, #fff);
+  background: var(--primary-color-70, #964f18);
 }
