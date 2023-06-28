@@ -1,0 +1,105 @@
+.navbar-header {
+  background: var(--brand-color-4, #df7f33) !important;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) !important;
+}
+
+.nav-link-orange:active {
+  color: #ffffff !important;
+  font-weight: bold !important;
+}
+
+.nav-link-orange:hover {
+  color: #ffffff !important;
+  font-weight: bold !important;
+}
+
+.nav-link-orange {
+  color: #ffffff !important;
+}
+
+.btn-wortel-secondary-orange {
+  color: var(--primary-color-50, #ffffff);
+
+  /* Body Text 1/Medium */
+  font-size: 16px;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: 130%;
+  letter-spacing: 0.24px;
+
+  display: inline-flex;
+  height: 37px;
+  padding: 8px 16px;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+
+  border-radius: 24px;
+  border: 2px solid var(--primary-color-50, #ffffff);
+  background: var(--grey-0, #df7f33);
+}
+
+.btn-wortel-secondary-orange:hover {
+  color: var(--primary-color-70, #964f18);
+
+  /* Body Text 1/Medium */
+  font-size: 16px;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: 130%;
+  letter-spacing: 0.24px;
+
+  display: inline-flex;
+  height: 37px;
+  padding: 8px 16px;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+
+  border-radius: 24px;
+  border: 2px solid var(--primary-color-70, #964f18);
+  background: var(--grey-0, #df7f33);
+}
+
+.btn-wortel-primary-orange {
+  color: #df7f33;
+
+  /* Body Text 1/Medium */
+  font-size: 16px;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: 130%;
+  letter-spacing: 0.24px;
+
+  display: inline-flex;
+  height: 37px;
+  padding: 8px 16px;
+  align-items: flex-start;
+  gap: 10px;
+  flex-shrink: 0;
+
+  border-radius: 24px;
+  background: var(--primary-color-50, #fff);
+  border: #fff;
+}
+
+.btn-wortel-primary-orange:hover {
+  color: #964f18;
+
+  /* Body Text 1/Medium */
+  font-size: 16px;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: 130%;
+  letter-spacing: 0.24px;
+
+  display: inline-flex;
+  height: 37px;
+  padding: 8px 16px;
+  align-items: flex-start;
+  gap: 10px;
+  flex-shrink: 0;
+
+  border-radius: 24px;
+  background: var(--primary-color-70, #fff);
+}

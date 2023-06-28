@@ -1,5 +1,5 @@
 import { Fragment } from "react";
-import Banner from "./banner";
+import Banner from "./banner/banner";
 import Content from "./content";
 import Game from "./games";
 import AboutUs from "./aboutus";

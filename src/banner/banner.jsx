@@ -1,10 +1,15 @@
 import React from "react";
+import "./banner.css";
 
 const Banner = () => {
   return (
     <div className="banner">
       <div className="banner-content">
-        <img src="carousel.png" alt="Banner" className="banner-image" />
+        <img
+          src="/themes2/background.png"
+          alt="Banner"
+          className="banner-image"
+        />
         <div className="overlay-container">
           <img
             src="banner-asset01.png"

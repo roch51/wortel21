@@ -3,7 +3,7 @@ import { Card, Col, Container, Row } from "react-bootstrap";
 const Payment = () => {
   return (
     <Container
-      className="bg-body-tertiary text-center overflow-hidden heading-title game-container"
+      className="bg-body-tertiary text-center overflow-hidden heading-title"
       fluid
     >
       <div className="my-3 p-3">

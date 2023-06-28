@@ -1,5 +1,6 @@
 import { Container, Nav, Navbar } from "react-bootstrap";
 import { scroller } from "react-scroll";
+import "./header.css";
 const Header = () => {
   const scrollToComponent = (componentId) => {
     scroller.scrollTo(componentId, {
@@ -7,12 +8,12 @@ const Header = () => {
     });
   };
   return (
-    <Navbar expand="lg" className="bg-body-tertiary">
+    <Navbar expand="lg" className="navbar-header">
       <Container>
         <Navbar.Brand to="/">
           <img
             alt=""
-            src="/wortel01.png"
+            src="/themes2/logo2.png"
             width="141"
             height="99"
             className="d-inline-block align-top"

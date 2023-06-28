@@ -1,6 +1,6 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Header from "./header";
+import Header from "./header/header";
 import React from "react";
 import Game from "./games";
 import AboutUs from "./aboutus";
