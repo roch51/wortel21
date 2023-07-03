@@ -12,12 +12,12 @@ const Banner = () => {
         />
         <div className="overlay-container">
           <img
-            src="banner-asset01.png"
+            src="/themes2/wortel-banner02.png"
             alt="Overlay"
             className="overlay-image"
           />
           <img
-            src="banner-asset02.png"
+            src="/themes2/wortel-banner01.png"
             alt="Overlay2"
             className="overlay-image-2"
           />

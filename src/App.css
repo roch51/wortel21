@@ -326,8 +326,8 @@
   }
 
   .text-container h2 {
-    font-size: 24px;
-    margin-bottom: 10px;
+    font-size: 24px !important;
+    margin-bottom: 10px !important;
     font-weight: 900;
   }
 
@@ -339,7 +339,7 @@
   .text-container {
     position: absolute;
     top: 55%;
-    left: 78%;
+    left: 50% !important;
     transform: translate(-50%, -50%);
     text-align: left;
     color: white;
@@ -384,8 +384,8 @@
     height: 30px;
   }
   .btn-wortel-primary-orange {
-    font-size: 12px;
-    height: 32px;
+    font-size: 10px !important;
+    height: 32px !important;
   }
 
   .btn-wortel-secondary-orange {
@@ -394,12 +394,12 @@
   }
 
   .btn-wortel-primary-white:hover {
-    font-size: 12px;
+    font-size: 10px !important;
     height: 30px;
   }
   .btn-wortel-primary-orange:hover {
-    font-size: 12px;
-    height: 32px;
+    font-size: 10px !important;
+    height: 32px !important;
   }
 
   .btn-wortel-secondary-orange:hover {
@@ -409,6 +409,13 @@
 
   .btn-aboutus {
     height: 36px !important;
+  }
+
+  .heading-title h2 {
+    font-size: 30px !important;
+    font-weight: 700;
+    color: #df7f33 !important;
+    text-align: center;
   }
 }
 
@@ -498,7 +505,7 @@
 }
 
 .aboutus-image {
-  width: 237px;
+  width: 350px;
   height: 350px;
   flex-shrink: 0;
 }

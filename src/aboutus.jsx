@@ -11,7 +11,11 @@ const AboutUs = () => {
       </div>
       <Row className="aboutus-row justify-content-start">
         <Col className="col-md-5 ">
-          <img src="aboutus01.png" alt="aboutus01" className="aboutus-image" />
+          <img
+            src="/themes2/aboutus-asset01.png"
+            alt="aboutus01"
+            className="aboutus-image"
+          />
         </Col>
         <Col className="col-md-7 aboutus-text">
           <p>
