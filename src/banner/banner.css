@@ -1,4 +1,25 @@
 @media (max-width: 600px) {
+  .text-container {
+    left: 30% !important;
+    width: 200px !important;
+    top: 56% !important;
+  }
+
+  .text-container h2 {
+    font-size: 24px !important;
+  }
+
+  .text-container p {
+    font-size: 12px !important;
+    color: var(--grey-0, #fff);
+  }
+
+  .overlay-container {
+    top: 5% !important;
+    width: 180px !important;
+    height: auto !important;
+    left: 59% !important;
+  }
 }
 
 .banner-content {
@@ -8,7 +29,7 @@
 .text-container {
   position: absolute;
   top: 50%;
-  left: 20%;
+  right: 60%;
   transform: translate(-50%, -50%);
   text-align: left;
   color: var(--primary-color-50, #df7f33);

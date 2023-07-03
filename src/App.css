@@ -295,63 +295,9 @@
   opacity: 0;
 }
 
-.text-container {
-  position: absolute;
-  top: 50%;
-  left: 80%;
-  transform: translate(-50%, -50%);
-  text-align: left;
-  color: white;
-  font-size: 20px !important;
-  font-family: Montserrat;
-}
-
-.text-container h2 {
-  color: var(--grey-0, #fff);
-  font-size: 60px;
-  font-family: Montserrat;
-  font-weight: 900;
-  line-height: 130%;
-  letter-spacing: 0.9px;
-}
-
-.text-container p {
-  font-size: 16px;
-  color: white;
-}
-
 @media (max-width: 600px) {
   .banner {
     height: 200px; /* Adjust the height for mobile devices */
-  }
-
-  .text-container h2 {
-    font-size: 24px !important;
-    margin-bottom: 10px !important;
-    font-weight: 900;
-  }
-
-  .text-container p {
-    font-size: 10px;
-    color: white;
-  }
-
-  .text-container {
-    position: absolute;
-    top: 55%;
-    left: 50% !important;
-    transform: translate(-50%, -50%);
-    text-align: left;
-    color: white;
-  }
-
-  .overlay-container {
-    position: absolute;
-    top: 20%;
-    left: 10%;
-    width: 40%; /* Adjust the width as desired */
-    height: auto;
-    z-index: 1;
   }
   .link-text {
     font-size: 8px !important;
