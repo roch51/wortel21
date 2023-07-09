@@ -68,12 +68,12 @@
 }
 
 .overlay-image-2 {
-  width: 50%;
+  width: 70%;
   position: absolute;
-  top: 40%;
+  top: 25%;
   left: 0%;
   animation-name: flyingAnimation;
-  animation-duration: 4s;
+  animation-duration: 7s;
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
   opacity: 0;
@@ -82,11 +82,11 @@
 @keyframes flyingAnimation {
   0% {
     transform: translateX(50%);
-    opacity: 0;
+    opacity: 1;
   }
   50% {
     transform: translate(-50%, -50%) rotate(20deg) scale(0.8);
-    opacity: 0.6;
+    opacity: 1;
   }
 
   100% {

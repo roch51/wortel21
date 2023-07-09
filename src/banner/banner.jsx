@@ -17,7 +17,7 @@ const Banner = () => {
             className="overlay-image"
           />
           <img
-            src="/themes2/wortel-banner01.png"
+            src="/themes2/rabbit-glasses01.png"
             alt="Overlay2"
             className="overlay-image-2"
           />
