@@ -19,7 +19,7 @@ const Game = () => {
               <Card.Img variant="top" src="game-type1.png" />
               <Card.Body className="d-flex align-items-center">
                 <div className="game-title text-left flex-grow-1">LOTTERY</div>
-                <button className="btn-wortel-primary-orange" href="#">
+                <button className="btn-wortel-primary-orange btn-games" href="#">
                   Ayo Main
                 </button>
               </Card.Body>
@@ -30,7 +30,7 @@ const Game = () => {
               <Card.Img variant="top" src="game-type2.png" />
               <Card.Body className="d-flex align-items-center">
                 <div className="game-title text-left flex-grow-1">CASINO</div>
-                <button className="btn-wortel-primary-orange" href="#">
+                <button className="btn-wortel-primary-orange btn-games" href="#">
                   Ayo Main
                 </button>
               </Card.Body>
@@ -41,7 +41,7 @@ const Game = () => {
               <Card.Img variant="top" src="game-type3.png" />
               <Card.Body className="d-flex align-items-center">
                 <div className="game-title text-left flex-grow-1">SLOTS</div>
-                <button className="btn-wortel-primary-orange" href="#">
+                <button className="btn-wortel-primary-orange btn-games" href="#">
                   Ayo Main
                 </button>
               </Card.Body>
@@ -52,7 +52,7 @@ const Game = () => {
               <Card.Img variant="top" src="game-type4.png" />
               <Card.Body className="d-flex align-items-center">
                 <div className="game-title text-left flex-grow-1">E-SPORT</div>
-                <button className="btn-wortel-primary-orange" href="#">
+                <button className="btn-wortel-primary-orange btn-games" href="#">
                   Ayo Main
                 </button>
               </Card.Body>
@@ -63,7 +63,7 @@ const Game = () => {
               <Card.Img variant="top" src="game-type5.png" />
               <Card.Body className="d-flex align-items-center">
                 <div className="game-title text-left flex-grow-1">POKER</div>
-                <button className="btn-wortel-primary-orange" href="#">
+                <button className="btn-wortel-primary-orange btn-games" href="#">
                   Ayo Main
                 </button>
               </Card.Body>
@@ -71,10 +71,10 @@ const Game = () => {
           </Col>
           <Col className="pt-md-4">
             <Card className="game-card">
-              <Card.Img variant="top" src="game-type6.png" />
+              <Card.Img variant="top" src="game-type7.png" />
               <Card.Body className="d-flex align-items-center">
                 <div className="game-title text-left flex-grow-1">LAINNYA</div>
-                <button className="btn-wortel-primary-orange" href="#">
+                <button className="btn-wortel-primary-orange btn-games" href="#">
                   Ayo Main
                 </button>
               </Card.Body>

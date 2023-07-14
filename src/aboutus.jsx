@@ -12,7 +12,7 @@ const AboutUs = () => {
       <Row className="aboutus-row justify-content-start">
         <Col className="col-md-5 ">
           <img
-            src="/themes2/aboutus-asset01.png"
+            src="/themes2/aboutus-03.png"
             alt="aboutus01"
             className="aboutus-image"
           />

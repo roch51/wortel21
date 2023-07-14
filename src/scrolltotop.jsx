@@ -4,6 +4,7 @@ import { faAngleUp } from "@fortawesome/free-solid-svg-icons";
 
 const ScrollToTop = () => {
   const [isVisible, setIsVisible] = useState(false);
+  const customcolor = "#DF7F33" ;
 
   // Show button when page is scorlled upto given distance
   const toggleVisibility = () => {
@@ -38,7 +39,7 @@ const ScrollToTop = () => {
             height="60px"
           /> */}
           <i className="fa fa-3 fa-angle-up">
-            <FontAwesomeIcon icon={faAngleUp}></FontAwesomeIcon>
+            <FontAwesomeIcon icon={faAngleUp} color={customcolor}></FontAwesomeIcon>
           </i>
         </div>
       )}

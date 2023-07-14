@@ -297,9 +297,14 @@
 }
 
 @media (max-width: 600px) {
-  .banner {
-    height: 200px; /* Adjust the height for mobile devices */
+  .banner-image {
+    height: auto;
+    
   }
+  .text-container {
+    margin-bottom: 30px !important;
+  }
+
   .link-text {
     font-size: 8px !important;
     margin-bottom: 1rem;
@@ -321,20 +326,10 @@
     padding-bottom: 50px;
   }
 
-  .btn-aboutus {
-    margin-left: 100px !important;
-    font-size: 16px !important;
-  }
-
   .btn-wortel-primary-white {
     font-size: 12px;
     height: 30px;
   }
-  .btn-wortel-primary-orange {
-    font-size: 10px !important;
-    height: 32px !important;
-  }
-
   .btn-wortel-secondary-orange {
     font-size: 12px;
     height: 32px;
@@ -344,10 +339,6 @@
     font-size: 10px !important;
     height: 30px;
   }
-  .btn-wortel-primary-orange:hover {
-    font-size: 10px !important;
-    height: 32px !important;
-  }
 
   .btn-wortel-secondary-orange:hover {
     font-size: 12px;
@@ -355,7 +346,19 @@
   }
 
   .btn-aboutus {
-    height: 36px !important;
+    height: 40px !important;
+    margin-left: 90px !important;
+    font-size: 16px !important;
+  }
+
+  .btn-wortel {
+    font-size: 16px !important;
+    height: 40px !important;
+  }
+
+  .btn-games{
+    font-size: 12px !important;
+    height: 32px !important;
   }
 
   .heading-title h2 {
@@ -496,6 +499,6 @@
   text-decoration: none;
   width: 50px;
   height: 50px;
-  border: 3px solid #7a7a7a;
+  border: 3px solid #DF7F33;
   border-radius: 50%;
 }
