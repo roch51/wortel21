@@ -1,0 +1,69 @@
+.overlay-aboutus {
+  left: 10%;
+  width: 35%; /* Adjust the width as desired */
+  height: auto;
+  z-index: 1;
+  position: absolute;
+}
+
+.overlay-aboutus-1 {
+  width: 80%;
+  height: 80%;
+}
+
+.overlay-aboutus-2 {
+  width: 40%;
+  top: 25%;
+  left: 60%;
+  position: absolute;
+}
+
+.aboutus-row {
+  display: flex !important;
+}
+
+.aboutus-text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 130%;
+  text-align: justify;
+  align-items: center;
+  letter-spacing: normal;
+  color: #595959;
+}
+
+.aboutus-image {
+  width: 400px;
+  height: 400px;
+  flex-shrink: 0;
+}
+
+.container-aboutus {
+  padding-bottom: 50px;
+}
+
+@media (max-width: 600px) {
+  .aboutus-text {
+    width: 100% !important;
+    position: relative !important;
+  }
+  .overlay-aboutus {
+    position: relative !important;
+    display: flex !important;
+    justify-content: center !important;
+  }
+  .container-aboutus {
+    align-items: center !important;
+  }
+
+  .overlay-aboutus-1 {
+    max-width: fit-content !important;
+  }
+  .aboutus-image {
+    height: auto !important;
+    left: 0% !important;
+  }
+  .overlay-aboutus-2 {
+    top: 32% !important;
+  }
+}

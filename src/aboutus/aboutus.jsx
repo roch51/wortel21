@@ -1,5 +1,5 @@
 import { Col, Container, Row } from "react-bootstrap";
-
+import "./aboutus.css";
 const AboutUs = () => {
   return (
     <Container className="bg-body-primary text-center overflow-hidden heading-title container-aboutus">
@@ -9,15 +9,22 @@ const AboutUs = () => {
           Ratusan Game Anti-Boring, 1 Akun Bisa Main Apa Aja Sepuasnya!
         </p>
       </div>
-      <Row className="aboutus-row justify-content-start">
-        <Col className="col-md-5 ">
-          <img
-            src="/themes2/aboutus-03.png"
-            alt="aboutus01"
-            className="aboutus-image"
-          />
+      <Row className="aboutus-row justify-content-start ">
+        <Col xs={4}>
+          <div className="overlay-aboutus aboutus-image">
+            <img
+              src="/themes2/aboutus-asset01.png"
+              alt="Overlay"
+              className="overlay-aboutus-1"
+            />
+            <img
+              src="/themes2/aboutus-overlay2.png"
+              alt="Overlay2"
+              className="overlay-aboutus-2"
+            />
+          </div>
         </Col>
-        <Col className="col-md-7 aboutus-text">
+        <Col xs={8} className="aboutus-text">
           <p>
             WORTEL21 merupakan agen situs judi online gacor terbaik untuk
             masyarakat Indonesia. Rasakan keseruan yang telah dirasakan oleh

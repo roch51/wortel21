@@ -299,7 +299,6 @@
 @media (max-width: 600px) {
   .banner-image {
     height: auto;
-    
   }
   .text-container {
     margin-bottom: 30px !important;
@@ -356,7 +355,7 @@
     height: 40px !important;
   }
 
-  .btn-games{
+  .btn-games {
     font-size: 12px !important;
     height: 32px !important;
   }
@@ -440,30 +439,6 @@
   padding-bottom: 30px !important;
 }
 
-.aboutus-row {
-  display: flex !important;
-}
-
-.aboutus-text {
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 130%;
-  text-align: justify;
-  align-items: center;
-  letter-spacing: normal;
-  color: #595959;
-}
-
-.aboutus-image {
-  width: 350px;
-  height: 350px;
-  flex-shrink: 0;
-}
-
-.container-aboutus {
-  padding-bottom: 50px;
-}
-
 .bg-body-color {
   background-color: #262626;
   height: 62px;
@@ -499,6 +474,6 @@
   text-decoration: none;
   width: 50px;
   height: 50px;
-  border: 3px solid #DF7F33;
+  border: 3px solid #df7f33;
   border-radius: 50%;
 }

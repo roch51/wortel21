@@ -3,7 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Header from "./header/header";
 import React from "react";
 import Game from "./game/games";
-import AboutUs from "./aboutus";
+import AboutUs from "./aboutus/aboutus";
 import Payment from "./payment/paymentmethod";
 import Footer from "./footer";
 import { Route, Routes } from "react-router-dom";
