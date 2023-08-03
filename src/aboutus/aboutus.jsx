@@ -50,9 +50,13 @@ const AboutUs = () => {
             menang juga untung banyak! Tunggu apa lagi? Gabung dan Main sekarang
             mendadak bisa jadi jutawan!
           </p>
-          <button className="btn-wortel-primary-orange btn-aboutus" href="#">
+          <a
+            style={{ textDecoration: "none" }}
+            className="btn-wortel-primary-orange btn-aboutus"
+            href="https://wortel21.org"
+          >
             Ayo Main Sekarang !
-          </button>
+          </a>
         </Col>
       </Row>
     </Container>

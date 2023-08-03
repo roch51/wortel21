@@ -29,9 +29,13 @@ const Banner = () => {
             <b>Ratusan Juta Rupiah!</b> Mau Bisa Cuan Banyak Terus?
           </p>
           <p>
-            <button className="btn-wortel btn-wortel-primary-orange">
+            <a
+              href="https://wortel21.org"
+              style={{ textDecoration: "none" }}
+              className="btn-wortel btn-wortel-primary-orange"
+            >
               Gabung Sekarang !
-            </button>
+            </a>
           </p>
         </div>
       </div>
