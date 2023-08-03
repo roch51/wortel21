@@ -41,12 +41,20 @@ const Header = () => {
             </Nav.Link>
           </Nav>
           <div className="nav-bar-action">
-            <button className="btn-nav btn-wortel-secondary-orange">
+            <a
+              href="https://wortel21.org"
+              style={{ textDecoration: "none" }}
+              className="btn-nav btn-wortel-secondary-orange"
+            >
               Masuk
-            </button>
-            <button className="btn-nav btn-wortel-primary-orange">
+            </a>
+            <a
+              href="https://wortel21.org"
+              style={{ textDecoration: "none" }}
+              className="btn-nav btn-wortel-primary-orange"
+            >
               Daftar
-            </button>
+            </a>
           </div>
         </Navbar.Collapse>
       </Container>

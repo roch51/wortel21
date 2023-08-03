@@ -23,9 +23,13 @@ const Game = () => {
               />
               <Card.Body className="d-flex align-items-center">
                 <div className="game-title text-left flex-grow-1">LOTTERY</div>
-                <button className="btn-wortel-primary-orange" href="#">
+                <a
+                  href="https://wortel21.org"
+                  style={{ textDecoration: "none" }}
+                  className="btn-wortel-primary-orange"
+                >
                   Ayo Main
-                </button>
+                </a>
               </Card.Body>
             </Card>
           </Col>
@@ -38,9 +42,13 @@ const Game = () => {
               />
               <Card.Body className="d-flex align-items-center">
                 <div className="game-title text-left flex-grow-1">CASINO</div>
-                <button className="btn-wortel-primary-orange" href="#">
+                <a
+                  className="btn-wortel-primary-orange"
+                  href="https://wortel21.org"
+                  style={{ textDecoration: "none" }}
+                >
                   Ayo Main
-                </button>
+                </a>
               </Card.Body>
             </Card>
           </Col>
@@ -53,9 +61,13 @@ const Game = () => {
               />
               <Card.Body className="d-flex align-items-center">
                 <div className="game-title text-left flex-grow-1">SLOTS</div>
-                <button className="btn-wortel-primary-orange" href="#">
+                <a
+                  className="btn-wortel-primary-orange"
+                  href="https://wortel21.org"
+                  style={{ textDecoration: "none" }}
+                >
                   Ayo Main
-                </button>
+                </a>
               </Card.Body>
             </Card>
           </Col>
@@ -68,9 +80,13 @@ const Game = () => {
               />
               <Card.Body className="d-flex align-items-center">
                 <div className="game-title text-left flex-grow-1">E-SPORT</div>
-                <button className="btn-wortel-primary-orange" href="#">
+                <a
+                  className="btn-wortel-primary-orange"
+                  href="https://wortel21.org"
+                  style={{ textDecoration: "none" }}
+                >
                   Ayo Main
-                </button>
+                </a>
               </Card.Body>
             </Card>
           </Col>
@@ -83,9 +99,13 @@ const Game = () => {
               />
               <Card.Body className="d-flex align-items-center">
                 <div className="game-title text-left flex-grow-1">POKER</div>
-                <button className="btn-wortel-primary-orange" href="#">
+                <a
+                  className="btn-wortel-primary-orange"
+                  href="https://wortel21.org"
+                  style={{ textDecoration: "none" }}
+                >
                   Ayo Main
-                </button>
+                </a>
               </Card.Body>
             </Card>
           </Col>
@@ -98,9 +118,13 @@ const Game = () => {
               />
               <Card.Body className="d-flex align-items-center">
                 <div className="game-title text-left flex-grow-1">LAINNYA</div>
-                <button className="btn-wortel-primary-orange" href="#">
+                <a
+                  className="btn-wortel-primary-orange"
+                  href="https://wortel21.org"
+                  style={{ textDecoration: "none" }}
+                >
                   Ayo Main
-                </button>
+                </a>
               </Card.Body>
             </Card>
           </Col>
